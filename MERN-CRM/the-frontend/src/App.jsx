@@ -7,6 +7,7 @@ import Form from "./components/Form";
 import Memoaization from "./components/Memo";
 import Styling from './components/Styling';
 import Hooks from './components/Hooks';
+import Useref from './components/Useref';
 import { counterContext } from './components/Context';
 
 const App = () => {
@@ -38,6 +39,9 @@ const App = () => {
         <Memoaization />
         <Styling />
         <Hooks />
+        <Useref />
+
+
       </counterContext.Provider>
     </>
   )
